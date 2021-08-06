@@ -4,8 +4,8 @@
   "description": "Html for hattorigumi theme",
   "main": "index.js",
   "scripts": {
-    "build": "npx postcss ./css/main.css -o ./css/style.css",
-    "watch": "npx postcss ./css/main.css -o ./css/style.css --watch"
+    "build": "npx postcss .assets/css/main.css -o .assets/css/style.css",
+    "watch": "npx postcss .assets/css/main.css -o .assets/css/style.css --watch"
   },
   "author": "Junki",
   "license": "ISC",
